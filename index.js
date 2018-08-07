@@ -19,10 +19,10 @@ function takeANumber (line, name) {
   var string = 'The line is currently: '
   var array = []
     for (var i = 0; i < line.length; i++) {
-     array.push(`${i + 1}. ${line[i]}`)
-    
+     
+     return string + array.join(', ')
     
      }
-   return string + array.join(', ')
+  
   }
   
